@@ -6,14 +6,14 @@ body {
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 400;
   margin: 0 10px 10px 10px;
   text-align: center;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -23,7 +23,7 @@ p {
 }
 
 section {
-  padding: 20px;
+  padding: 10px;
 }
 
 section.alternate-background {
@@ -122,6 +122,10 @@ footer p {
 /* -------  Media Query ------- */
 
 @media all and (min-width: 600px) {
+  body{
+    font-size: unset;
+  }
+
   header {
     background-color: #ff385c;
     text-align: left;
